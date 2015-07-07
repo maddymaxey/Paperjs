@@ -1,0 +1,3 @@
+[submodule "Paperjs"]
+	path = Paperjs
+	url = https://github.com/maddymaxey/Paperjs.git
