@@ -13069,7 +13069,7 @@ Base.exports.PaperScript = (function() {
 
 }).call(this);
 
-paper = new (PaperScope.inject(Base.exports, {
+var paper = new (PaperScope.inject(Base.exports, {
 	enumerable: true,
 	Base: Base,
 	Numerical: Numerical,
@@ -13084,3 +13084,7 @@ if (typeof define === 'function' && define.amd) {
 
 return paper;
 };
+
+
+window.paper = paper;
+paper.setup(window); // edits made by Dr. Paul Gruber
