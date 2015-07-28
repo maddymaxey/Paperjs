@@ -4210,7 +4210,7 @@ var Item = Base.extend(Emitter, {
 	}
 }));
 
-var Group = Item.extend({
+Group = Item.extend({ //edited from local to global
 	_class: 'Group',
 	_selectChildren: true,
 	_serializeFields: {
